@@ -1,0 +1,7 @@
+type dummy.SimpleObject {
+  string strField {
+  }
+  number numField {
+  }
+  _alias = "SimpleObject_alias"
+}

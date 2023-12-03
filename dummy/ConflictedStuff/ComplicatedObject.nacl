@@ -1,0 +1,27 @@
+type dummy.ComplicatedObject {
+  string fieldWithNoChange {
+  }
+  string fieldWithNoConflict {
+  }
+  string strField {
+  }
+  string strFieldToBeDeletedInA {
+  }
+  string strFieldToBeDeletedInB {
+  }
+  string strFieldToBeDeletedInC {
+  }
+  number numField {
+  }
+  "List<string>" listField {
+  }
+  string staticFileField {
+  }
+  string autoMergedStaticFileInst {
+  }
+  "Map<string>" mapField {
+  }
+  "List<dummy.SimpleObject>" objectsMapField {
+  }
+  _alias = "ComplicatedObject_alias"
+}

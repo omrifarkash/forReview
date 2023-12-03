@@ -1,0 +1,9 @@
+type dummy.ChangedObject {
+  string alwaysHereField {
+  }
+  string notInB {
+  }
+  string notInC {
+  }
+  _alias = "ChangedObject_alias"
+}
